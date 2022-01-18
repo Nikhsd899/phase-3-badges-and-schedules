@@ -1,4 +1,3 @@
-# Write your code here.
 def badge_maker(name)
     "Hello, my name is #{name}."
 end
@@ -20,7 +19,9 @@ def printer(attendees)
         puts badge
     end
 
-    assign_rooms(attendees).each do |assignment|
+assign_rooms(attendees).each do |assignment|
         puts assignment
     end
 end
+
+
